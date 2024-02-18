@@ -12,6 +12,7 @@
 body {
     background-color: rgb(255, 255, 255);
     height: 2000px;
+    overflow-x: hidden;
 }
 
 header {
@@ -38,10 +39,13 @@ nav {
     font-size: 1.5em;
     font-weight: bold;
     color: rgb(36, 35, 35);
-    border-radius: 10px;  
+    border-radius: 10px; 
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.452); 
 }
 .botao-adquirir:active, .botao-adquirir-2:active {
     background-color: black;
+    box-shadow: 0px 0px 20px black;
     color: white;
     border: none;
 }
@@ -90,6 +94,7 @@ section {
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.178);
     text-align: center;
     display: block;
+    
 
 }
 
@@ -132,6 +137,8 @@ section {
     border-radius: 15px;
     font-size: 1.1em;
     font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.548);
 }
 
 .text-copy > a {
@@ -139,12 +146,12 @@ section {
 }
 
 .div-image1 {
-    width: 50%;
-    height: 250px;
-    margin: auto;
+    width: 90%;
+    height: 110%;
+    padding-top: 30px;
     display: flex;
-    padding-top: 50px;
     justify-content: center;
+    align-content: center;
     max-width: 50%;
 }
 .div-image1 > img {
@@ -171,8 +178,9 @@ section {
 .article-ebook-pay {
     height: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+
 }
 
 .text-copy {
@@ -209,6 +217,24 @@ footer {
     color: rgb(218, 187, 187);
     text-align: center;
     line-height: 50px;
+}
+
+.div-3 {
+    background-color: rgb(32, 31, 31);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column  ;
+}
+.foto-people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin: auto;
 }
 
 @media screen and (min-width: 1024px) {
