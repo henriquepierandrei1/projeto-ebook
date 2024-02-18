@@ -210,3 +210,23 @@ footer {
     text-align: center;
     line-height: 50px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .secao-ebook-pay {
+        height: 500px;
+    }
+
+    .div-image1 {
+        width: 100%;
+    }
+    .div-image1 > img {
+        position: absolute;
+        width: 30%;
+        height: 400px;
+    }
+
+    .container-principal {
+        height: 2000px;
+    }
+}
