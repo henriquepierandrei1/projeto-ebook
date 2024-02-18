@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile first */
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 2000px;
+}
+
+header {
+    background-color: rgb(31, 29, 29);
+    color: white;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav {
+    width: 25%;
+    height: 75%;
+    
+}
+.botao-adquirir {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+    border-radius: 10px;
+    
+}
+
+section {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+}
+.container-principal {
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    height: 1100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.article-image1 {
+    width: 95%;
+    margin-top: -30px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-image1 > img {
+    width: 95%;
+    height: max-content;
+    margin: auto;
+
+}
+
+.article-p1, .article-p2 {
+    background-color: white;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.178);
+    text-align: center;
+    display: block;
+
+}
+
+.div1 > img {
+    width: 100%;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.div2 > img {
+    width: 90%;
+}
+
+.article-image2 {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-image2 > img {
+    width: 90%;
+    border-radius: 10px;
+    display: block;
+}
+
+.botao-adquirir-2 {
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    display: block;
+    width: 80%;
+    margin: 5% auto auto auto;
+    color: rgb(36, 34, 34);
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.text-copy > a {
+    text-decoration: none;
+}
+
+.div-image1 {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    max-width: 50%;
+}
+.div-image1 > img {
+    width: 70%;
+}
+
+.secao-ebook-pay {
+    height: 300px;
+    width: 95%;
+    display: block;
+    margin: 30px auto 30px auto;
+    
+    border-radius: 10px;
+    background-color: rgb(34, 32, 32);
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+}
+.linha {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(150, 136, 136);
+}
+
+.article-ebook-pay {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-copy {
+    width: 60%;
+    
+    height: 250px;
+    padding: 20px;
+    
+}
+.text-copy > p {
+    color: rgb(238, 225, 225);
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.text-copy > h1 {
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.avaliacoes {
+    background-color: rgb(224, 215, 215);
+    width: 100%;
+    height: 600px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: rgb(218, 187, 187);
+    text-align: center;
+    line-height: 50px;
+}
